@@ -66,4 +66,78 @@ print(num)
 
 # Take a string (text) input from the user
 name = input("Enter name: ")
-print(name) 
+print(name)
+
+# Local variables
+def student():
+    name = "Ruthvik"
+    print(name)
+student()  
+
+def add():
+    a = 20
+    b = 30
+    c = a + b
+    print("The sum is:", c)
+add() 
+
+def value():
+    num = 5
+    print(num)
+value()
+num = 10
+print(num)
+
+def area_of_the_rectangle():
+    length = 7
+    width = 5
+    print("area_of_the_rectangle:", length * width)
+area_of_the_rectangle()
+
+# Global variables
+a = 10
+def display():
+    print("a:", a)
+display()
+
+x = "awesome"
+def myfunc():
+    print("Python is " + x)
+myfunc()
+
+x = "awesome"
+def myfunc():
+    x = "fantastic"
+    print(x)
+myfunc()
+print(x)
+
+# Global keyword
+def myfunc():
+    global x
+    x = "Python"
+myfunc()
+print(x)
+
+country = "India"
+def update():
+    global country
+    country = "USA"
+update()
+print(country)    
+
+x = 101
+def mainFunction():
+    global x
+    print(x)
+    x = 'Welcome To Hyderabad'
+    print(x)
+mainFunction()
+print(x)  
+
+def mainfunction():
+    global num
+    num = 25
+    print(num)
+mainfunction()
+print(num)    
