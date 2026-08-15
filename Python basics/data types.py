@@ -120,3 +120,44 @@ print("The type of c", type(c))
 print("c is a complex number", isinstance(2+7j, complex))
 d = 3.0+3.2j
 print(d, "The type of d", type(d))
+
+# Type conversion 
+x = 1
+y = 2.8
+z = 1j
+a = float(x)        # converting from int to float
+b = int(y)          # converting from float to int
+c = complex(x)      # converting from int to complex
+print(a)
+print(b)
+print(c)
+print(type(a))
+print(type(b))
+print(type(c))
+
+# Implicit Type conversion
+a = 7
+b = 7.7
+sum = a + b 
+print(sum)
+print(type(sum))
+
+# Explicit type conversion 
+a = 100 
+b = "200"
+b = int(b)
+result = a + b
+print(result, type)
+
+a = 50
+b = str(a)
+print(b)
+print(type(b))
+
+# Example
+num = input("Enter number: ")
+print(num)
+name1 = input("Enter name: ")
+print(name1)
+print(type(num))
+print(type(name1))
