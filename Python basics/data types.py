@@ -161,3 +161,60 @@ name1 = input("Enter name: ")
 print(name1)
 print(type(num))
 print(type(name1))
+
+# Python casting
+# Specify a Variable Type
+# Integers
+x = int(1)
+y = int(2.8)
+z = int("5")
+print(x)
+print(y)
+print(z)
+
+# Floats
+x = float(1)
+y = float(2.3)
+z = float("3")
+print(x)
+print(y)
+print(z)
+
+# Strings
+x = str("s1")
+y = str(2)
+z = str(3.0)
+print(x)
+print(y)
+print(z)
+
+# Examples
+num = 10
+result = float(num)
+print(result)
+print(type(result))
+
+x = "30"
+y = int(x)
+print(y, 10)
+print(y + 10)
+
+age = int(input("Enter your age: "))
+print("your age is:", age)
+print("Type:", type(age))
+
+num = int(input("Enter num: "))
+num = str(num)
+print(num, type(num))
+
+a = input("Enter first number: ")
+b = input("Enter second number: ")
+a = int(a)
+b = int(b)
+print("Sum:", a + b)
+
+# Calculating average Using Float Casting
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+average = float(a + b) / 2
+print(average)
