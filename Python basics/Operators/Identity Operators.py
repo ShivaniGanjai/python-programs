@@ -25,8 +25,8 @@ print(x is not y)
 print(x)
 print(y)
 
-a = int(input("Enter a value "))
-b = int(input("Enter b value "))
+a = int(input("Enter a value: "))
+b = int(input("Enter b value: "))
 c = a
 print(c is a)
 print(a is not b)
